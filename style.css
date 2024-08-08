@@ -1,0 +1,149 @@
+/* Header section */
+* {
+    box-sizing: border-box;
+}
+
+.top-logo {
+    width: 84.6979px;
+    height: 75.1354px;
+}
+
+.header-section {
+    background-color: rgb(0, 174, 68);
+    font-family: "PT Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 20px;
+    height: 100px;
+    border-bottom: 1px solid white;
+}
+
+.header-content {
+    justify-content: end;
+    align-items: center;
+}
+.social-icons {
+    width: 29px;
+}
+
+.navbar-nav {
+    column-gap: 8px;
+    margin-right: 50px;
+}
+
+
+
+/* Content section */
+
+.first-section {
+    position: relative;
+    top: 100px;
+    /* height: 116vh; */
+    width: 100%;
+}
+.first-image {
+    width: 100%;
+}
+body {
+    overflow-x: hidden;
+}
+.first-section {
+    position: relative;
+}
+.text-1 {
+    position: absolute;
+    top: 190px;
+    left: 70px;
+    width: 25%;
+}
+.btn-1{
+    position: absolute;
+    top: 338px;
+    left: 76px;
+    background-color: rgb(0, 174, 68);
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 851px) {
+    .text-1{
+        top: 77%;
+        left: 25%;
+        width: 50%;
+    }
+    .btn-1 {
+        top: 90%;
+        left: 30%;
+        width: 40%;
+    }
+  }
+
+  /* Items section */
+  .items-section {
+    position: relative;
+    top: 100px;
+    /* height: 116vh; */
+    width: 100%;
+  }
+
+
+  .text-content-2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    z-index: 100;
+    border-radius: 100px;
+    padding: 10px 0 25px 0;
+    margin: auto;
+    background-color: rgba(10, 91, 43, 0.8);
+    color: white;
+    
+}
+
+@media (max-width: 851px) {
+    .text-content-2 {
+        width: 450px;
+    }
+  }
+
+.btn-2 {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    color: white;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size:  0.9rem;
+}
+
+  /* Footer section */
+
+  .footer-section {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    padding-left: 10px;
+    background-color: #3e3e3e;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    line-height: 30px;
+    white-space: nowrap;
+    
+}
+
