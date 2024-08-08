@@ -82,7 +82,14 @@ body {
         width: 40%;
     }
   }
-
+  @media (max-width: 370px) {
+    .text-1{
+        top: 69%;
+    }
+    .btn-1 {
+        top: 82%;
+    }
+  }
   /* Items section */
   .items-section {
     position: relative;
@@ -114,8 +121,13 @@ body {
     .text-content-2 {
         width: 450px;
     }
-  }
 
+  }
+  @media (max-width: 370px) {
+    .text-content-2 {
+        width: 375px;
+    }
+  }
 .btn-2 {
     background-color: transparent;
     border: 2px solid white;
