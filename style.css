@@ -24,7 +24,7 @@
     align-items: center;
 }
 .social-icons {
-    width: 29px;
+    height: 29px;
 }
 
 .navbar-nav {
@@ -82,7 +82,7 @@ body {
         width: 40%;
     }
   }
-  @media (max-width: 370px) {
+  @media (max-width: 516px) {
     .text-1{
         top: 69%;
     }
@@ -123,9 +123,9 @@ body {
     }
 
   }
-  @media (max-width: 370px) {
+  @media (max-width: 516px) {
     .text-content-2 {
-        width: 375px;
+        width: 90%;
     }
   }
 .btn-2 {
